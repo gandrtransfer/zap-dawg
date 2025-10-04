@@ -1,13 +1,12 @@
-Zapdawg.com Landing Page
 
-Files:
-- index.html
-- styles.css
-- logo.png (replace with pitbull lightning logo)
-- README.txt
+Zapdawg.com — Landing Page (Analytics + Click Tracking)
 
-Deploy:
-1. Create GitHub repo (public).
-2. Upload these files.
-3. Enable GitHub Pages in repo Settings → Pages → Source: main branch → root (/).
-4. Set Porkbun DNS to GitHub Pages IPs + CNAME (www → yourusername.github.io).
+Included:
+- Plausible analytics (active): data-domain="zapdawg.com"
+- Click tracking on Afternic, Dan.com, and Email buttons
+- Optional GA4 snippet (commented). Replace G-XXXXXXX and uncomment to enable.
+
+Steps:
+1) Upload index.html, styles.css, logo.png to your GitHub repo root.
+2) In Plausible, add your site (zapdawg.com). The script is already placed.
+3) To enable GA4, replace G-XXXXXXX with your Measurement ID and uncomment the block.
